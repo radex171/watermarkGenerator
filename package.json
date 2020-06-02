@@ -1,0 +1,10 @@
+{
+  "name": "watermarkgenerator",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Radoslaw Zaborski <radex171@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "0.6.4"
+  }
+}
