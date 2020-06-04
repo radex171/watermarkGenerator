@@ -5,6 +5,8 @@
   "author": "Radoslaw Zaborski <radex171@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "jimp": "0.6.4"
+    "inquirer": "6.5.0",
+    "jimp": "0.6.4",
+    "minimist": "^0.2.1"
   }
 }
