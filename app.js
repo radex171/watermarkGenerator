@@ -2,7 +2,6 @@ const Jimp = require('jimp');
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-
 const repeatApp = async () => {
     const answerRepeat = await inquirer.prompt([{
         name: 'repeat',
@@ -57,7 +56,6 @@ const prepareOutputFilename = (filename) => {
     return `${name}-with-watermark.${ext}`;
 };
 
-
 const startApp = async () => {
 
     // Ask if user is ready
@@ -91,7 +89,6 @@ const startApp = async () => {
         }])
 
         if (fs.existsSync('./img/' + options.inputImage)) {
-
 
             options.watermarkText = text.value;
             addTextWatermarkToImage('./img/' + options.inputImage, './img/' + prepareOutputFilename(options.inputImage), options.watermarkText);
